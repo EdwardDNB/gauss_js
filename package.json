@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3",
+    "sinon": "^19.0.2"
+  },
+  "scripts": {
+    "test": "mocha --reporter min"
+  }
+}

@@ -94,7 +94,7 @@ class matrix {
         for(let j = i+1; j < this.get_rows(); j++) {
             if(this.matrix[j][i] != 0) {
                 for(let k = 0; k < this.get_cols(); k++) {
-                     temp = this.matrix[i][k]
+                     let temp = this.matrix[i][k]
                      this.matrix[i][k] = this.matrix[j][k]
                      this.matrix[j][k] = temp
 		}
@@ -112,4 +112,4 @@ class matrix {
         this.matrix[i][j] = d
     }
 }
-module.exports = matrix
+export default matrix;
